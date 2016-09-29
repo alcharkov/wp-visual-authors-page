@@ -20,7 +20,7 @@ add_action('admin_menu', 'vap_register_admin_menu_page');
 wp_enqueue_script('vauthor-script', plugin_dir_url(__FILE__) . 'js/admin.js', null, false, true);
 wp_enqueue_style('vauthor-style', plugin_dir_url(__FILE__) . 'css/style.css');
 
-function checkRoles($roles) {
+function vap_checkRoles($roles) {
     $db_roles = vap_get_roles_keys();
     $roles_lower = explode(',', strtolower($roles));
     return array_intersect($roles_lower, $db_roles);
@@ -32,7 +32,7 @@ function vap_aup_render_authors_page($roles = null, $authors = null, $post_count
     
     $args = array(
         'blog_id' => $GLOBALS['blog_id'],
-        'role__in' => checkRoles($roles),
+        'role__in' => vap_checkRoles($roles),
         'exclude' => explode(',', $authors),
         'orderby' => 'post_count',
         'order' => 'DESC',
