@@ -2,7 +2,7 @@
 
 /*
   Plugin Name: Visual Authors Page
-  Description: Displays all users of a certain role on one page in a table format. It also shows their avatars and usernames with linking to their detailed information.
+  Description: This "Visual Authors page" plugin display authors list in any page by placing shortcode on it.
   Author: alcharkov
   Author URI: https://github.com/alcharkov
   Version: 1.0

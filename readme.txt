@@ -1,4 +1,4 @@
-=== Authors Page ===
+=== Visual Authors Page ===
 Contributors: segapunk
 Donate link:
 Tags: users list, table of users, list of users, avatars, usernames, authors list, authors page, authors
@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Displays all users of a certain role on one page in a table format. It also shows their avatars and usernames with linking to their detailed info.
+This "Visual Authors page" plugin display authors list in any page by placing shortcode on it.  
 
 == Description ==
 
